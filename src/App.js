@@ -2,6 +2,7 @@
 import './App.css';
 import CartItems from './componets/CartItems';
 import Categories from './componets/Categories';
+import Footer from './componets/Footer';
 import Header from './componets/Header';
 import YML from './componets/YML';
 
@@ -29,6 +30,7 @@ function App() {
      
     </main>
      <YML/>
+     <Footer/>
     </>
   );
 }
