@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    color: #091625;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0px;
+}
+
+.pack3 {
+    display: flex;
+    margin-bottom: 80px;
+    width: 1056px;
+    height: 168px;
+    border-bottom: solid 1px;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    margin-right: 16px;
+    background-color: #E6E8E9;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    flex-grow: 1;
+}
+
+.mcpk {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.quantity {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.quantity-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.arrow {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+    margin-left: 4px;
+}
+
+.total-q {
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+}
+
+.card-box {
+    color: #091625;
+}
+
+.options {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+   
+}
+
+.remove {
+    display: flex;
+    align-items: center;
+    border: 0px;
+    background-color: white;
+}
+
+.text-remove {
+    margin-left: 8px;
+}

@@ -1,0 +1,16 @@
+.categories-bar{
+display: flex;
+align-items: center;
+width: 1600px;
+height: 64px;
+background-color: #E6E8E9;
+padding-left: 92px;
+margin-bottom: 32px;
+}
+.categorie{
+  margin-right: 24px;
+  color: #535C67;
+}
+.categories-group{
+  margin-left: 35px;
+}

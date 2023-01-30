@@ -1,0 +1,20 @@
+.i-item{
+    width: 336px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.i-photo{
+    width: 336px;
+    height: 336px;
+    background-color: #E6E8E9;
+    flex-shrink: 0;
+}
+.i-prace{
+    display: flex;
+}
+.mini{
+    margin-left: 94px;
+}
