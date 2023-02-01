@@ -76,6 +76,7 @@
     margin-top: 40px;
 }
 .rigths{
+    display: flex;
     color: #535C67;
     margin-right: 746px;
 }

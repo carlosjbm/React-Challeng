@@ -1,74 +1,71 @@
-:root{
-    --header-bg:#091625;
+:root {
+  --header-bg: #091625;
 }
 
-@media(max-width:1600px){
+@media (max-width: 1600px) {
   header {
-      display: flex;
-      width: 1600px;
-      height: 88px;
-      background-color: var(--header-bg);
-      align-items: center;
-    }
-  
-    .logo {
-      width: 172px;
-      height: 48px;
-      margin-left: 92px;
-      background-color: #CED0D3;
-      color: #848a92;
-      margin-right: 100px;
-      border: 0px;
-    }
-  
-    .account-1 {
-      margin-left: 250px;
-  
-    }
-  
-    .sing-in {
-      margin-left: 18px;
-      color: white;
-  
-    }
-  
-    .shopping-bag {
-      margin-left: 14px;
-      color: white;
-    }
-  
-    .cart {
-      margin-left: 26px;
-    }
-  
-    .search-box {
-      display: flex;
-      align-items: center;
-  
-    }
-  
-    .search-products {
-      width: 696px;
-      height: 40px;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      background-color: #FFFF;
-      display: flex;
-      align-items: center;
-      border: 0px;
-    }
-  
-    .zoom {
-      color: white;
-      height: 40px;
-      border: 0px;
-    }
-  
-    .zoom-button {
-      background-color: white;
-      border: 0px;
-      height: 40px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-    }
+    display: flex;
+    width: 1600px;
+    height: 88px;
+    background-color: var(--header-bg);
+    align-items: center;
+  }
+
+  .logo {
+    width: 172px;
+    height: 48px;
+    margin-left: 92px;
+    background-color: #ced0d3;
+    color: #848a92;
+    margin-right: 100px;
+    border: 0px;
+  }
+
+  .account-1 {
+    margin-left: 250px;
+  }
+
+  .sing-in {
+    margin-left: 18px;
+    color: white;
+  }
+
+  .shopping-bag {
+    margin-left: 14px;
+    color: white;
+  }
+
+  .cart {
+    margin-left: 26px;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-products {
+    width: 696px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    border: 0px;
+  }
+
+  .zoom {
+    color: white;
+    height: 40px;
+    border: 0px;
+  }
+
+  .zoom-button {
+    background-color: white;
+    border: 0px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
 }
